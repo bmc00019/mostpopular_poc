@@ -407,6 +407,7 @@ header #nav ul li a:hover {
   height: 180px;
   position: absolute;
   top: 30px;
+  top: 30px;
   background: white;
   color: black;
 }

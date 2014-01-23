@@ -1,4 +1,4 @@
-/* style.scss */
+/* bounce.scss */
 
 header {
 	width: 100%;
@@ -80,15 +80,13 @@ header {
 .poc {
 	position: fixed;
 	display: block;
-	
-	height: 30px;
-	-webkit-transition: height .4s ease-out;
+	height: 210px;
+	-webkit-transition: position .4s ease-out;
 	background: transparent;
-	
-	
 	padding: 0;
 	overflow: hidden;
-	
+	bottom: -210px;
+	left: 0;	
 	#top {
 		cursor: pointer;
 		width: 100%;
@@ -177,6 +175,6 @@ header {
 
 }
 .shown {
-	height: 210px;
-	-webkit-transition: height .4s ease-out;
+	bottom: 0px;
+	-webkit-transition: position .4s ease-out;
 }
