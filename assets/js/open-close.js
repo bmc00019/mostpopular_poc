@@ -15,6 +15,11 @@ $(document).ready(function(){
 		
 		if ((scrollTop > 780) && (scrollTop < 830)) {
 			$('.poc').addClass('shown');
+			setTimeout( function() {
+				console.log("close it!");
+				$('.poc').removeClass('shown');
+			}, 2500 );
+
 		} else {
 
 		}

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Black - full width</title>
+	<title>Bar - Black</title>
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
