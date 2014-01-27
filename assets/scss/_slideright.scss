@@ -1,0 +1,144 @@
+/* style.scss */
+
+header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 60px;
+	background: white;
+	border-bottom: 1px solid $siteAccentColor;
+	background: white;
+	font-family: "TradeGothic CondEighteen", $siteFontStack;
+	#nav {
+		width: 1000px;
+		margin: 0 auto;
+		height: 100%;
+
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			height: 100%;
+
+			li {
+				margin: 0;
+				padding: 0;
+				display: inline-block;
+				height: 100%;
+				a {
+					display: block;
+					height: 100%;
+					color: #333;
+					text-decoration: none;
+					padding: 0 .5em 0;
+					line-height: 3.7em;
+
+					&:hover {
+						background: $siteAccentColor;
+						color: white;
+					}
+				}
+			}
+		}
+	}
+}
+
+.image {
+	padding: 60px 0 0 0;
+	display: block;
+	width: 100%;
+
+	img {
+		width: 100%;
+	}
+}
+
+.popular-container {
+	position: fixed;
+	top: 94px;
+	right: -1px;
+	width: 0;
+	height: 640px;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background: white;
+	-webkit-transition: width .4s ease-out;
+	.tab {
+		position: absolute;
+		left: -31px;
+		top: 67px;
+		width: 30px;
+		height: 200px;
+		cursor: pointer;
+	}
+}
+
+.popular {
+
+	#top {
+		font-family: "TradeGothic Bold CondEighteen", $siteFontStack;
+		text-transform: uppercase;
+		text-align: center;
+		background: white;
+		color: $siteAccentColor;
+		padding: 1.5em 0;
+		border-bottom: 1px solid #ccc;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 300px;
+	}
+	#bottom {
+		position: absolute;
+		top: 4.2em;
+		left: 0;
+		width: 300px;
+
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+
+
+			li {
+				display: block;
+				width: 100%;
+				margin: 0 auto;
+				padding: 1em;
+				border-bottom: 1px solid #ccc;
+
+				.img-cont {
+					height: 90px;
+					overflow: hidden;
+				}
+
+				img {
+					width: 100%;
+				}
+
+				p {
+					margin: .2em;
+					padding: 0;
+					font-weight: 400;
+					font: 0.8em/1.2em "Open Sans", $siteFontStack;
+				}
+			}
+	}
+	}
+}
+
+.open {
+	width: 300px;
+	-webkit-transition: width .4s ease-out;
+}
+
+.closed {
+	width: 0;
+}
+
+.shown {
+	height: 210px;
+	-webkit-transition: height .4s ease-out;
+}

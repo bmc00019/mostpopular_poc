@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Bar - Gray - Bounce</title>
+	<title>Tab - Black - Bounce</title>
 	<link rel="stylesheet" href="assets/css/bounce.css">
 </head>
 <body>
@@ -14,9 +14,11 @@
 	</div>
 
 	<div class="poc poc-full-width">
-		<div id="top" class="gray">Most Popular</div>
-		<div id="bottom">
+		<div id="top_right" class="black">Most Popular</div>
+		<div id="bottom" class="bottom_tab_black">
+			
 			<?php include 'includes/bottom-content.php'; ?>
+
 		</div>
 	</div>
 	
